@@ -3,7 +3,7 @@ const checkerResult = document.querySelector('checker--result')
 
 const numberSubmitChecker =  document.querySelector('numberSubmit--checker')
 
-const numberFieldChecker = document.querySelector('numberField--checker')
+const checkerValue = document.querySelector('checker--value')
 //let resetButton; (not sure if this is needed for mine? check MDN page)
 
 console.log('This Works')
