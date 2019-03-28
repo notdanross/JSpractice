@@ -1,3 +1,4 @@
+//fizz buzz question solution
 for (i = 1; i < 100; i++){
     if (i%3 == 0 && i%5 == 0){
         console.log('fizzbuzz')
@@ -7,3 +8,4 @@ for (i = 1; i < 100; i++){
         console.log('fizz')
 }else console.log(i)
 } 
+
