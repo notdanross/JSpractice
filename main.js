@@ -1,16 +1,14 @@
 const checkerNumber = document.querySelector('checker--number')
 const checkerResult = document.querySelector('checker--result')
 
-const numberSubmitChecker =  document.querySelector('numberSubmit--checker')
+const checkerSubmit =  document.querySelector('checker--submit')
 
 const checkerValue = document.querySelector('checker--value')
 //let resetButton; (not sure if this is needed for mine? check MDN page)
 
 console.log('This Works')
 
-numberSubmitChecker.onclick = function(){
-
-}
+checkerSubmit.addEventListener('click', evenCheck);
 
 
 //this is my fizz buzz question solution
