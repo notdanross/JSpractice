@@ -10,6 +10,9 @@ console.log('This Works')
 
 checkerSubmit.addEventListener('click', evenCheck);
 
+const evenCheck = function (){
+    
+}
 
 //this is my fizz buzz question solution
 // for (i = 1; i < 100; i++){
