@@ -26,8 +26,8 @@ const oddSum = function (groupTwo){
     for (var i = 0; i < groupTwo.length; i++){
         if (groupTwo[i]%2 != 0)
         total = total + groupTwo[i]
-        console.log(total)
     }
+    console.log(total)
 }
 
 // these are constants to go with the functional site
