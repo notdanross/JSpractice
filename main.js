@@ -7,8 +7,8 @@ const groupTwo = [3, 3, 3, 3, 2, 2, 2, 2, 7, 9, 4, 6]
 const evenCheck = function (happy){
     if (happy%2 == 0)
         console.log('even number')
-    else if (happy%2 != 0)
-    console.log('not even')
+    // else if (happy%2 != 0)
+    // console.log('not even')
 }
 
 
@@ -23,7 +23,8 @@ const evenReturn = function (groupOne){
 //function to add only odd numbers from array
 const oddSum = function (groupTwo){
     for (var i = 0; i < groupTwo.length; i++){
-    
+    if (groupTwo[i]%2 != 0)
+        return 
     }
 }
 
