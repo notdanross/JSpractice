@@ -22,9 +22,11 @@ const evenReturn = function (groupOne){
 
 //function to add only odd numbers from array
 const oddSum = function (groupTwo){
+    var total = 0;
     for (var i = 0; i < groupTwo.length; i++){
-    if (groupTwo[i]%2 != 0)
-        return 
+        if (groupTwo[i]%2 != 0)
+        total = total + groupTwo[i]
+        console.log(total)
     }
 }
 
