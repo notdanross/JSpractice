@@ -1,25 +1,30 @@
-//even checker works in browser
-// const evenCheck = function (happy){
-//     if (happy%2 == 0)
-//         console.log('even number')
-// else if (happy%2 != 0)
-//     console.log('not even')
-// }
-
+const happy = 10
+const sad = 9
 const groupOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 10]
+const groupTwo = [3, 3, 3, 3, 2, 2, 2, 2, 7, 9, 4, 6]
 
-//function to return even numbers from array
+//even checker works in browser
+const evenCheck = function (happy){
+    if (happy%2 == 0)
+        console.log('even number')
+    else if (happy%2 != 0)
+    console.log('not even')
+}
+
+
+//even return works in browser
 const evenReturn = function (groupOne){
-    for (var i = 0; i < groupOne.length; i++){
-    }
-    if (i%2 == 0){
-        console.log(i)
+    for (var i = 0; i < groupOne.length; i++){ 
+    if (groupOne[i]%2 == 0)
+        console.log(groupOne[i])
     } 
 };
 
 //function to add only odd numbers from array
 const oddSum = function (groupTwo){
-
+    for (var i = 0; i < groupTwo.length; i++){
+    
+    }
 }
 
 // these are constants to go with the functional site
