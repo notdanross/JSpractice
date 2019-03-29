@@ -1,17 +1,20 @@
-const checkerNumber = document.querySelector('checker--number')
-const checkerResult = document.querySelector('checker--result')
+const checkerNumber = document.getElementsByClassName('checker--number')
+const checkerResult = document.getElementsByClassName('checker--result')
 
-const checkerSubmit =  document.querySelector('checker--submit')
+const checkerSubmit =  document.getElementsByClassName('checker--submit')
 
-const checkerValue = document.querySelector('checker--value')
+const checkerValue = document.getElementsByClassName('checker--value')
 //let resetButton; (not sure if this is needed for mine? check MDN page)
 
 console.log('This Works')
 
-checkerSubmit.addEventListener('click', evenCheck);
+checkerSubmit.addEventListener = ('click', console.log('this button works'));
 
-const evenCheck = function (){
-    
+const evenCheck = function (happy){
+    if (happy%2 == 0)
+        console.log('even number')
+else if (happy%2 != 0)
+    console.log('not even')
 }
 
 //this is my fizz buzz question solution
