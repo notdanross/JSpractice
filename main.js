@@ -1,14 +1,23 @@
-const happy = 10
-const sad = 9
-const groupOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 10]
-const groupTwo = [3, 3, 3, 3, 2, 2, 2, 2, 7, 9, 4, 6]
+// const happy = 10
+// const sad = 9
+// const groupOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 10]
+// const groupTwo = [3, 3, 3, 3, 2, 2, 2, 2, 7, 9, 4, 6]
+
+document.getElementById('evenSubmit').addEventListener('click', evenCheck);
+
 
 //even checker works in console
-const evenCheck = function (happy){
-    if (happy%2 == 0)
+function evenCheck() {
+    const evenNumber = document.getElementById('checker--value')
+    
+    event.preventDefault();
+    console.log('you clicked a button');
+    if (evenNumber%2 == 0)
         console.log('even number')
     // else if (happy%2 != 0)
     // console.log('not even')
+    document.getElementById('checker--number').innerHTML = "";
+    document.getElementById('checker--result').innerHTML = "";
 }
 
 
